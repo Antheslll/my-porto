@@ -127,8 +127,8 @@ const FooterPotrait = () => {
             <InstagramIcon />
           </li>
           <li>
-            <Link href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
-              <span>
+            <Link href="https://www.linkedin.com/in/anthonyliemm">
+              <span className="inline-block">
                 <LinkedInIcon />
               </span>
             </Link>
