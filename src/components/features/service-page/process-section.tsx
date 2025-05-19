@@ -78,7 +78,7 @@ const ProcessSection = () => {
             height="h-[35px] sm:h-[60px]"
             textSize="text-[10px] sm:text-[18px]"
             text="Hubungi Kami Sekarang!"
-            link="/contact"
+            link="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda."
           />
         </div>
       </main>
@@ -108,7 +108,7 @@ const ProcessSection = () => {
               height="h-[35px] sm:h-[60px] lg:h-[50px]"
               textSize="text-[10px] sm:text-[18px] lg:text-[15px]"
               text="Hubungi Kami Sekarang!"
-              link="/contact"
+              link="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda."
             />
           </div>
           <div>
@@ -172,7 +172,7 @@ const ProcessSection = () => {
             height="h-[35px] sm:h-[60px]"
             textSize="text-[10px] sm:text-[18px]"
             text="Hubungi Kami Sekarang!"
-            link="/contact"
+            link="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda."
           />
         </div>
       </main>
