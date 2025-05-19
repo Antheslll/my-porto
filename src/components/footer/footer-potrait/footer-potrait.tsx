@@ -102,30 +102,30 @@ const FooterPotrait = () => {
           ))}
         </ul>
         <ul className="flex-centered flex-row gap-[5vw]">
-          <li className="scale-[50%]">
-            <Link
-              href="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda."
-              target="_blank"
-            >
+          <Link
+            href="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda."
+            target="_blank"
+          >
+            <li className="scale-[50%]">
               <WhatsappIcon />
-            </Link>
-          </li>
-          <li className="scale-[50%]">
-            <Link
-              href="https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg=="
-              target="_blank"
-            >
+            </li>
+          </Link>
+          <Link
+            href="https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg=="
+            target="_blank"
+          >
+            <li className="scale-[50%]">
               <InstagramIcon />
-            </Link>
-          </li>
-          <li className="scale-[50%]">
-            <Link
-              href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
-              target="_blank"
-            >
+            </li>
+          </Link>
+          <Link
+            href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile"
+            target="_blank"
+          >
+            <li className="scale-[50%]">
               <LinkedInIcon />
-            </Link>
-          </li>
+            </li>
+          </Link>
         </ul>
         <div className="flex-centered">
           <Link

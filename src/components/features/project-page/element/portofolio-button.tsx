@@ -20,7 +20,7 @@ const PortofolioButton = ({
         className={`${bgColor} cursor-pointer w-full h-[40px] sm:h-[50px] lg:h-[70px] rounded-[5px] grid grid-cols-[1.5fr_4fr]`}
       >
         <span className="w-full h-full flex-centered">{icon}</span>
-        <span className="text-white text-[2.3vw] lg:text-[1.7vw] xl:text-[1.5vw] flex items-center">
+        <span className="w-full h-full text-white text-[2.3vw] lg:text-[1.7vw] xl:text-[1.5vw] flex items-center">
           {text}
         </span>
       </button>
