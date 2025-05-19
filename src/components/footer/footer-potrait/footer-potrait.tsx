@@ -5,7 +5,6 @@ import Image from "next/image";
 import { FooterNavList } from "@/components/navbar/navbar-element/navbar-list";
 import useScreenSize from "@/hook/useScreenSize";
 import useScreenOrientation from "@/hook/useScreenOrientation";
-import ContactList from "../footer-landscape/element/contact-list";
 
 const FooterPotrait = () => {
   const { width } = useScreenSize();
@@ -19,23 +18,23 @@ const FooterPotrait = () => {
     { nav: "Contact", link: "/contact" },
   ];
 
-  const listofContact = [
-    {
-      icon: <WhatsappIcon />,
-      link: "https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda.",
-      text: "+62 811 1167 867",
-    },
-    {
-      icon: <InstagramIcon />,
-      link: "https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg==",
-      text: "@anthonylog.id",
-    },
-    {
-      icon: <LinkedInIcon />,
-      link: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
-      text: "Anthony Liem",
-    },
-  ];
+  // const listofContact = [
+  //   {
+  //     icon: <WhatsappIcon />,
+  //     link: "https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda.",
+  //     text: "+62 811 1167 867",
+  //   },
+  //   {
+  //     icon: <InstagramIcon />,
+  //     link: "https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg==",
+  //     text: "@anthonylog.id",
+  //   },
+  //   {
+  //     icon: <LinkedInIcon />,
+  //     link: "https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile",
+  //     text: "Anthony Liem",
+  //   },
+  // ];
 
   if (width >= 768 && width < 1024 && orientation === "landscape") {
     return (
@@ -121,14 +120,17 @@ const FooterPotrait = () => {
           ))}
         </ul>
         <ul className="flex-centered flex-row gap-[5vw]">
-          {listofContact.map((contact) => (
-            <ContactList
-              key={contact.text}
-              icon={contact.icon}
-              text={contact.text}
-              link={contact.link}
-            />
-          ))}
+          <li>
+            <WhatsappIcon />
+          </li>
+          <li>
+            <InstagramIcon />
+          </li>
+          <li>
+            <Link href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile">
+              <LinkedInIcon />
+            </Link>
+          </li>
         </ul>
         <div className="flex-centered">
           <Link
