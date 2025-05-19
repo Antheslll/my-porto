@@ -58,13 +58,19 @@ const FooterPotrait = () => {
         </ul>
         <ul className="flex-centered flex-row gap-[5vw]">
           <li className="scale-[50%]">
-            <WhatsappIcon />
+            <Link href="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda.">
+              <WhatsappIcon />
+            </Link>
           </li>
           <li className="scale-[50%]">
-            <InstagramIcon />
+            <Link href="https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg==">
+              <InstagramIcon />
+            </Link>
           </li>
           <li className="scale-[50%]">
-            <LinkedInIcon />
+            <Link href="https://www.linkedin.com/in/anthonyliemm">
+              <LinkedInIcon />
+            </Link>
           </li>
         </ul>
         <div className="flex-centered">
@@ -120,17 +126,19 @@ const FooterPotrait = () => {
           ))}
         </ul>
         <ul className="flex-centered flex-row gap-[5vw]">
-          <li>
-            <WhatsappIcon />
+          <li className="scale-[50%]">
+            <Link href="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda.">
+              <WhatsappIcon />
+            </Link>
           </li>
-          <li>
-            <InstagramIcon />
+          <li className="scale-[50%]">
+            <Link href="https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg==">
+              <InstagramIcon />
+            </Link>
           </li>
-          <li>
+          <li className="scale-[50%]">
             <Link href="https://www.linkedin.com/in/anthonyliemm">
-              <span className="inline-block">
-                <LinkedInIcon />
-              </span>
+              <LinkedInIcon />
             </Link>
           </li>
         </ul>
@@ -188,13 +196,19 @@ const FooterPotrait = () => {
         </ul>
         <ul className="flex-centered flex-row gap-[5vw]">
           <li className="scale-[50%]">
-            <WhatsappIcon />
+            <Link href="https://api.whatsapp.com/send?phone=628111167867&text=Halo%2C%20saya%20ingin%20bertanya%20mengenai%20produk%20Anda.">
+              <WhatsappIcon />
+            </Link>
           </li>
           <li className="scale-[50%]">
-            <InstagramIcon />
+            <Link href="https://www.instagram.com/anthonylog.id?igsh=MWRjYzBrZnFxYW8yZg==">
+              <InstagramIcon />
+            </Link>
           </li>
           <li className="scale-[50%]">
-            <LinkedInIcon />
+            <Link href="https://www.linkedin.com/in/anthonyliemm">
+              <LinkedInIcon />
+            </Link>
           </li>
         </ul>
         <div className="flex-centered">
